@@ -113,13 +113,13 @@ a:hover, a.visited:hover {
     background-position: 50% 75%;
 }
 
-@media (max-width: 1310px) {
+@media (max-width: 1250px) {
     .container {
         flex-direction: column;
     }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 650px) {
     .logo {
         width: 120px;
         height: 21.9px;
