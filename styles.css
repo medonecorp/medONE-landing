@@ -90,9 +90,18 @@ a:hover, a.visited:hover {
     z-index: -1;
     position: absolute;
     right: 0;
-    top: 0;
-    bottom: 0;
+    height: 861px;
+    margin-top: auto;
+    margin-bottom: auto;
     width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.arc-right svg {
+    height: 861px;
+    width: 431px;
 }
 
 .circle {
@@ -123,7 +132,6 @@ a:hover, a.visited:hover {
 
     .container-right {
         width: 100%;
-        min-width: none;
     }
 
     .headline {
@@ -144,6 +152,15 @@ a:hover, a.visited:hover {
         background-size: 500px;
         width: 328px;
         height: 328px;
+    }
+
+    .arc-right {
+        height: 100%;
+    }
+
+    .arc-right svg {
+        height: 408px;
+        width: 204px;
     }
 
     h1, h2 {
